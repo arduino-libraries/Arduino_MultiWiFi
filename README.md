@@ -13,11 +13,14 @@ This functionality is already available in the ESP32 core, but this library prov
 ## Usage
 
 ```arduino
+#include <WiFiNINA.h>
+#include <MultiWiFi.h>
+
 void setup() {
     MultiWiFi multi;
     multi.add("myssid", "mypassphrase");
     multi.add("myssid_2", "mypassphrase_2");
-    
+
     if (multi.run() == WL_CONNECTED) {
         Serial.print("Successfully connected to network: ");
         Serial.println(WiFi.SSID());
