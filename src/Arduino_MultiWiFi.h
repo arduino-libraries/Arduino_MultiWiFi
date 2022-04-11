@@ -1,5 +1,5 @@
-#ifndef MULTIWIFI_H_
-#define MULTIWIFI_H_
+#ifndef ARDUINO_MULTIWIFI_H_
+#define ARDUINO_MULTIWIFI_H_
 
 #include <vector>
 

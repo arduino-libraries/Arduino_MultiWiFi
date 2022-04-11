@@ -1,7 +1,7 @@
 // This example is supposed to work on all boards that use the WiFiNINA library.
 
 #include <WiFiNINA.h>
-#include <MultiWiFi.h>
+#include <Arduino_MultiWiFi.h>
 
 MultiWiFi multi;
 

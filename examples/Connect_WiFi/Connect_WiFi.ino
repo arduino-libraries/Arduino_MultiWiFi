@@ -2,7 +2,7 @@
 // header file, such as Portenta, ESP32 and more.
 
 #include <WiFi.h>
-#include <MultiWiFi.h>
+#include <Arduino_MultiWiFi.h>
 
 MultiWiFi multi;
 
